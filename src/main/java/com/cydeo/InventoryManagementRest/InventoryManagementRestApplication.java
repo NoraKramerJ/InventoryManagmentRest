@@ -12,10 +12,10 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 @SpringBootApplication
 @EnableFeignClients
 @EnableCaching
-public class AccountingSimplifiedApplication {
+public class InventoryManagementRest {
 
     public static void main(String[] args) {
-        SpringApplication.run(AccountingSimplifiedApplication.class, args);
+        SpringApplication.run(InventoryManagementRest.class, args);
     }
 
     @Bean

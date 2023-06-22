@@ -1,4 +1,4 @@
-package com.cydeo.accountingsimplified.aop;
+package com.cydeo.InventoryManagementRest.aop;
 
 import lombok.extern.slf4j.Slf4j;
 import org.aspectj.lang.JoinPoint;
@@ -11,11 +11,11 @@ import org.springframework.context.annotation.Configuration;
 @Slf4j
 public class LoggingAspect {
 
-    @Pointcut("execution(* com.cydeo.accountingsimplified.controller.*.*(..))")
+    @Pointcut("execution(* com.cydeo.InventoryManagementRest.controller.*.*(..))")
     public void controllerPointCut() {
     }
 
-    @Pointcut("execution(* com.cydeo.accountingsimplified.service.*.*(..)) && !execution(* com.cydeo.accountingsimplified.service.SecurityService.*(..))")
+    @Pointcut("execution(* com.cydeo.InventoryManagementRest.service.*.*(..)) && !execution(* com.cydeo.InventoryManagementRest.service.SecurityService.*(..))")
     public void servicePointCut() {
     }
 
