@@ -1,7 +1,7 @@
 package com.cydeo.InventoryManagementRest.exception;
 
-import com.cydeo.accountingsimplified.dto.DefaultExceptionMessageDto;
-import com.cydeo.accountingsimplified.dto.ResponseWrapper;
+import com.cydeo.InventoryManagementRest.dto.DefaultExceptionMessageDto;
+import com.cydeo.InventoryManagementRest.dto.ResponseWrapper;
 import org.springframework.core.Ordered;
 import org.springframework.core.annotation.Order;
 import org.springframework.http.HttpStatus;
@@ -47,7 +47,7 @@ public class ExceptionMessageHandler {
         return new ResponseEntity<>(ResponseWrapper.builder().success(false).message("Action failed: An error occurred!").code(HttpStatus.INTERNAL_SERVER_ERROR.value()).build(), HttpStatus.INTERNAL_SERVER_ERROR);
     }
     private Optional<DefaultExceptionMessageDto> getMessageFromAnnotation(Method method) {
-        com.cydeo.accountingsimplified.annotation.DefaultExceptionMessage defaultExceptionMessage = method.getAnnotation(com.cydeo.accountingsimplified.annotation.DefaultExceptionMessage.class);
+        com.cydeo.InventoryManagementRest.annotation.DefaultExceptionMessage defaultExceptionMessage = method.getAnnotation(com.cydeo.InventoryManagementRest.annotation.DefaultExceptionMessage.class);
         if (defaultExceptionMessage != null) {
             DefaultExceptionMessageDto defaultExceptionMessageDto = DefaultExceptionMessageDto
                     .builder()

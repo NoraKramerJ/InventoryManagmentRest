@@ -3,6 +3,7 @@ package com.cydeo.InventoryManagementRest.service.integration;
 import com.cydeo.InventoryManagementRest.TestDocumentInitializer;
 import com.cydeo.InventoryManagementRest.dto.UserDto;
 import com.cydeo.InventoryManagementRest.entity.User;
+import com.cydeo.InventoryManagementRest.exception.AccountingException;
 import com.cydeo.InventoryManagementRest.mapper.MapperUtil;
 import com.cydeo.InventoryManagementRest.repository.UserRepository;
 import com.cydeo.InventoryManagementRest.service.SecurityService;
@@ -52,7 +53,7 @@ class UserServiceImplTest {
 
     @Test
     @DisplayName("When_find_by_id_then_success")
-    public void GIVEN_ID_WHEN_FIND_BY_ID_THEN_SUCCESS() {
+    public void GIVEN_ID_WHEN_FIND_BY_ID_THEN_SUCCESS() throws AccountingException {
         // When
         var returnedUser = userService.findUserById(user.getId());
         // Then
