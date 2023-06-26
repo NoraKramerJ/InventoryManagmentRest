@@ -1,13 +1,13 @@
-package com.cydeo.accountingsimplified.service.implementation;
+package com.cydeo.InventoryManagementRest.service.implementation;
 
-import com.cydeo.accountingsimplified.dto.*;
-import com.cydeo.accountingsimplified.entity.*;
-import com.cydeo.accountingsimplified.enums.InvoiceStatus;
-import com.cydeo.accountingsimplified.enums.InvoiceType;
-import com.cydeo.accountingsimplified.mapper.MapperUtil;
-import com.cydeo.accountingsimplified.repository.*;
-import com.cydeo.accountingsimplified.service.*;
-import com.cydeo.accountingsimplified.service.common.CommonService;
+import com.cydeo.InventoryManagementRest.dto.*;
+import com.cydeo.InventoryManagementRest.entity.*;
+import com.cydeo.InventoryManagementRest.enums.InvoiceStatus;
+import com.cydeo.InventoryManagementRest.enums.InvoiceType;
+import com.cydeo.InventoryManagementRest.mapper.MapperUtil;
+import com.cydeo.InventoryManagementRest.repository.*;
+import com.cydeo.InventoryManagementRest.service.*;
+import com.cydeo.InventoryManagementRest.service.common.CommonService;
 import org.springframework.stereotype.Service;
 
 import java.math.BigDecimal;

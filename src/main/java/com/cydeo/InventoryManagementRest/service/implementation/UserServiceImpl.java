@@ -1,15 +1,15 @@
-package com.cydeo.accountingsimplified.service.implementation;
+package com.cydeo.InventoryManagementRest.service.implementation;
 
-import com.cydeo.accountingsimplified.dto.UserDto;
-import com.cydeo.accountingsimplified.entity.Company;
-import com.cydeo.accountingsimplified.entity.User;
-import com.cydeo.accountingsimplified.exception.AccountingException;
-import com.cydeo.accountingsimplified.exception.UserDoesNotExistException;
-import com.cydeo.accountingsimplified.mapper.MapperUtil;
-import com.cydeo.accountingsimplified.repository.UserRepository;
-import com.cydeo.accountingsimplified.service.SecurityService;
-import com.cydeo.accountingsimplified.service.UserService;
-import com.cydeo.accountingsimplified.service.common.CommonService;
+import com.cydeo.InventoryManagementRest.dto.UserDto;
+import com.cydeo.InventoryManagementRest.entity.Company;
+import com.cydeo.InventoryManagementRest.entity.User;
+import com.cydeo.InventoryManagementRest.exception.AccountingException;
+import com.cydeo.InventoryManagementRest.exception.UserDoesNotExistException;
+import com.cydeo.InventoryManagementRest.mapper.MapperUtil;
+import com.cydeo.InventoryManagementRest.repository.UserRepository;
+import com.cydeo.InventoryManagementRest.service.SecurityService;
+import com.cydeo.InventoryManagementRest.service.UserService;
+import com.cydeo.InventoryManagementRest.service.common.CommonService;
 import org.springframework.context.annotation.Lazy;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;

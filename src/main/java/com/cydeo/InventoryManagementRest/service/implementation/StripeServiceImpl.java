@@ -1,6 +1,6 @@
-package com.cydeo.accountingsimplified.service.implementation;
+package com.cydeo.InventoryManagementRest.service.implementation;
 
-import com.cydeo.accountingsimplified.entity.common.ChargeRequest;
+import com.cydeo.InventoryManagementRest.entity.common.ChargeRequest;
 import com.stripe.Stripe;
 import com.stripe.exception.StripeException;
 import com.stripe.model.Charge;

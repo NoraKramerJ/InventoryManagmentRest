@@ -1,14 +1,14 @@
-package com.cydeo.accountingsimplified.service.implementation;
+package com.cydeo.InventoryManagementRest.service.implementation;
 
-import com.cydeo.accountingsimplified.dto.ClientVendorDto;
-import com.cydeo.accountingsimplified.entity.ClientVendor;
-import com.cydeo.accountingsimplified.enums.ClientVendorType;
-import com.cydeo.accountingsimplified.exception.AccountingException;
-import com.cydeo.accountingsimplified.mapper.MapperUtil;
-import com.cydeo.accountingsimplified.repository.ClientVendorRepository;
-import com.cydeo.accountingsimplified.service.ClientVendorService;
-import com.cydeo.accountingsimplified.service.SecurityService;
-import com.cydeo.accountingsimplified.service.common.CommonService;
+import com.cydeo.InventoryManagementRest.dto.ClientVendorDto;
+import com.cydeo.InventoryManagementRest.entity.ClientVendor;
+import com.cydeo.InventoryManagementRest.enums.ClientVendorType;
+import com.cydeo.InventoryManagementRest.exception.AccountingException;
+import com.cydeo.InventoryManagementRest.mapper.MapperUtil;
+import com.cydeo.InventoryManagementRest.repository.ClientVendorRepository;
+import com.cydeo.InventoryManagementRest.service.ClientVendorService;
+import com.cydeo.InventoryManagementRest.service.SecurityService;
+import com.cydeo.InventoryManagementRest.service.common.CommonService;
 import org.springframework.stereotype.Service;
 
 import java.util.Comparator;

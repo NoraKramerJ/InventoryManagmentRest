@@ -1,11 +1,11 @@
-package com.cydeo.accountingsimplified.service.implementation;
+package com.cydeo.InventoryManagementRest.service.implementation;
 
-import com.cydeo.accountingsimplified.dto.addressApi.Country;
-import com.cydeo.accountingsimplified.dto.addressApi.State;
-import com.cydeo.accountingsimplified.dto.addressApi.TokenDto;
-import com.cydeo.accountingsimplified.mapper.MapperUtil;
-import com.cydeo.accountingsimplified.service.feignClients.AddressFeignClient;
-import com.cydeo.accountingsimplified.service.AddressService;
+import com.cydeo.InventoryManagementRest.dto.addressApi.Country;
+import com.cydeo.InventoryManagementRest.dto.addressApi.State;
+import com.cydeo.InventoryManagementRest.dto.addressApi.TokenDto;
+import com.cydeo.InventoryManagementRest.mapper.MapperUtil;
+import com.cydeo.InventoryManagementRest.service.feignClients.AddressFeignClient;
+import com.cydeo.InventoryManagementRest.service.AddressService;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Value;

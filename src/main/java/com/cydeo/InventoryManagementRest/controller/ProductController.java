@@ -1,11 +1,11 @@
-package com.cydeo.accountingsimplified.controller;
+package com.cydeo.InventoryManagementRest.controller;
 
-import com.cydeo.accountingsimplified.dto.ProductDto;
-import com.cydeo.accountingsimplified.dto.ResponseWrapper;
-import com.cydeo.accountingsimplified.enums.ProductUnit;
-import com.cydeo.accountingsimplified.exception.AccountingException;
-import com.cydeo.accountingsimplified.service.CategoryService;
-import com.cydeo.accountingsimplified.service.ProductService;
+import com.cydeo.InventoryManagementRest.dto.ProductDto;
+import com.cydeo.InventoryManagementRest.dto.ResponseWrapper;
+import com.cydeo.InventoryManagementRest.enums.ProductUnit;
+import com.cydeo.InventoryManagementRest.exception.AccountingException;
+import com.cydeo.InventoryManagementRest.service.CategoryService;
+import com.cydeo.InventoryManagementRest.service.ProductService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;

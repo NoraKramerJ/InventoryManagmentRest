@@ -1,8 +1,8 @@
-package com.cydeo.accountingsimplified.repository;
+package com.cydeo.InventoryManagementRest.repository;
 
-import com.cydeo.accountingsimplified.entity.ClientVendor;
-import com.cydeo.accountingsimplified.entity.Company;
-import com.cydeo.accountingsimplified.enums.ClientVendorType;
+import com.cydeo.InventoryManagementRest.entity.ClientVendor;
+import com.cydeo.InventoryManagementRest.entity.Company;
+import com.cydeo.InventoryManagementRest.enums.ClientVendorType;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 import org.springframework.web.bind.annotation.CrossOrigin;

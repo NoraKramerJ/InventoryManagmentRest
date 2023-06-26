@@ -1,9 +1,9 @@
-package com.cydeo.accountingsimplified;
+package com.cydeo.InventoryManagementRest;
 
-import com.cydeo.accountingsimplified.dto.*;
-import com.cydeo.accountingsimplified.entity.User;
-import com.cydeo.accountingsimplified.enums.*;
-import com.cydeo.accountingsimplified.mapper.MapperUtil;
+import com.cydeo.InventoryManagementRest.dto.*;
+import com.cydeo.InventoryManagementRest.entity.User;
+import com.cydeo.InventoryManagementRest.enums.*;
+import com.cydeo.InventoryManagementRest.mapper.MapperUtil;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;

@@ -1,6 +1,6 @@
-package com.cydeo.accountingsimplified.service;
+package com.cydeo.InventoryManagementRest.service;
 
-import com.cydeo.accountingsimplified.dto.InvoiceProductDto;
+import com.cydeo.InventoryManagementRest.dto.InvoiceProductDto;
 
 import java.math.BigDecimal;
 import java.util.List;

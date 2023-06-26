@@ -1,7 +1,7 @@
-package com.cydeo.accountingsimplified.service.feignClients;
+package com.cydeo.InventoryManagementRest.service.feignClients;
 
 
-import com.cydeo.accountingsimplified.dto.CurrencyApiResponse;
+import com.cydeo.InventoryManagementRest.dto.CurrencyApiResponse;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.http.MediaType;

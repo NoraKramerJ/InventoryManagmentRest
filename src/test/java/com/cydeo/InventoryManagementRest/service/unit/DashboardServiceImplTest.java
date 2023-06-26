@@ -1,8 +1,8 @@
-package com.cydeo.accountingsimplified.service.unit;
+package com.cydeo.InventoryManagementRest.service.unit;
 
 
-import com.cydeo.accountingsimplified.dto.CurrencyDto;
-import com.cydeo.accountingsimplified.service.DashboardService;
+import com.cydeo.InventoryManagementRest.dto.CurrencyDto;
+import com.cydeo.InventoryManagementRest.service.DashboardService;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;

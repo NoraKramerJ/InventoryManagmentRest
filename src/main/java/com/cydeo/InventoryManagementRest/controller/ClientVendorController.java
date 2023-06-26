@@ -1,13 +1,13 @@
-package com.cydeo.accountingsimplified.controller;
+package com.cydeo.InventoryManagementRest.controller;
 
-import com.cydeo.accountingsimplified.dto.ClientVendorDto;
-import com.cydeo.accountingsimplified.dto.ResponseWrapper;
-import com.cydeo.accountingsimplified.entity.ClientVendor;
-import com.cydeo.accountingsimplified.enums.ClientVendorType;
-import com.cydeo.accountingsimplified.exception.AccountingException;
-import com.cydeo.accountingsimplified.service.AddressService;
-import com.cydeo.accountingsimplified.service.ClientVendorService;
-import com.cydeo.accountingsimplified.service.InvoiceService;
+import com.cydeo.InventoryManagementRest.dto.ClientVendorDto;
+import com.cydeo.InventoryManagementRest.dto.ResponseWrapper;
+import com.cydeo.InventoryManagementRest.entity.ClientVendor;
+import com.cydeo.InventoryManagementRest.enums.ClientVendorType;
+import com.cydeo.InventoryManagementRest.exception.AccountingException;
+import com.cydeo.InventoryManagementRest.service.AddressService;
+import com.cydeo.InventoryManagementRest.service.ClientVendorService;
+import com.cydeo.InventoryManagementRest.service.InvoiceService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;

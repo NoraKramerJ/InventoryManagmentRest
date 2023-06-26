@@ -1,4 +1,4 @@
-package com.cydeo.accountingsimplified.dto;
+package com.cydeo.InventoryManagementRest.dto;
 
 import lombok.*;
 

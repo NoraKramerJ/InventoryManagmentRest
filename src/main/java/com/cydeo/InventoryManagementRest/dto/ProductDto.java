@@ -1,6 +1,6 @@
-package com.cydeo.accountingsimplified.dto;
+package com.cydeo.InventoryManagementRest.dto;
 
-import com.cydeo.accountingsimplified.enums.ProductUnit;
+import com.cydeo.InventoryManagementRest.enums.ProductUnit;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import lombok.*;

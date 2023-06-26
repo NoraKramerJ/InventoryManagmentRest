@@ -1,4 +1,4 @@
-package com.cydeo.accountingsimplified.exception;
+package com.cydeo.InventoryManagementRest.exception;
 
 import com.cydeo.accountingsimplified.dto.DefaultExceptionMessageDto;
 import com.cydeo.accountingsimplified.dto.ResponseWrapper;

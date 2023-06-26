@@ -1,4 +1,4 @@
-package com.cydeo.accountingsimplified.exception;
+package com.cydeo.InventoryManagementRest.exception;
 
 public class UserDoesNotExistException extends RuntimeException {
     public UserDoesNotExistException(){

@@ -1,7 +1,7 @@
-package com.cydeo.accountingsimplified.dto;
+package com.cydeo.InventoryManagementRest.dto;
 
-import com.cydeo.accountingsimplified.enums.InvoiceStatus;
-import com.cydeo.accountingsimplified.enums.InvoiceType;
+import com.cydeo.InventoryManagementRest.enums.InvoiceStatus;
+import com.cydeo.InventoryManagementRest.enums.InvoiceType;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import lombok.*;
 import org.springframework.format.annotation.DateTimeFormat;

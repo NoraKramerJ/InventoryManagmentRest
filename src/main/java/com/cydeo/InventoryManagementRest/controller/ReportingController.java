@@ -1,7 +1,7 @@
-package com.cydeo.accountingsimplified.controller;
+package com.cydeo.InventoryManagementRest.controller;
 
-import com.cydeo.accountingsimplified.dto.ResponseWrapper;
-import com.cydeo.accountingsimplified.service.ReportingService;
+import com.cydeo.InventoryManagementRest.dto.ResponseWrapper;
+import com.cydeo.InventoryManagementRest.service.ReportingService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;

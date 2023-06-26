@@ -1,6 +1,6 @@
-package com.cydeo.accountingsimplified.repository;
+package com.cydeo.InventoryManagementRest.repository;
 
-import com.cydeo.accountingsimplified.entity.Payment;
+import com.cydeo.InventoryManagementRest.entity.Payment;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 import org.springframework.web.bind.annotation.CrossOrigin;

@@ -1,14 +1,14 @@
-package com.cydeo.accountingsimplified.service.implementation;
+package com.cydeo.InventoryManagementRest.service.implementation;
 
-import com.cydeo.accountingsimplified.dto.CompanyDto;
-import com.cydeo.accountingsimplified.dto.PaymentDto;
-import com.cydeo.accountingsimplified.entity.Company;
-import com.cydeo.accountingsimplified.entity.Payment;
-import com.cydeo.accountingsimplified.enums.Months;
-import com.cydeo.accountingsimplified.mapper.MapperUtil;
-import com.cydeo.accountingsimplified.repository.PaymentRepository;
-import com.cydeo.accountingsimplified.service.CompanyService;
-import com.cydeo.accountingsimplified.service.PaymentService;
+import com.cydeo.InventoryManagementRest.dto.CompanyDto;
+import com.cydeo.InventoryManagementRest.dto.PaymentDto;
+import com.cydeo.InventoryManagementRest.entity.Company;
+import com.cydeo.InventoryManagementRest.entity.Payment;
+import com.cydeo.InventoryManagementRest.enums.Months;
+import com.cydeo.InventoryManagementRest.mapper.MapperUtil;
+import com.cydeo.InventoryManagementRest.repository.PaymentRepository;
+import com.cydeo.InventoryManagementRest.service.CompanyService;
+import com.cydeo.InventoryManagementRest.service.PaymentService;
 import org.springframework.stereotype.Service;
 
 import java.time.LocalDate;

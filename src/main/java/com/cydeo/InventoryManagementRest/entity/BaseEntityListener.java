@@ -1,4 +1,4 @@
-package com.cydeo.accountingsimplified.entity;
+package com.cydeo.InventoryManagementRest.entity;
 
 import org.springframework.data.jpa.domain.support.AuditingEntityListener;
 import org.springframework.stereotype.Component;

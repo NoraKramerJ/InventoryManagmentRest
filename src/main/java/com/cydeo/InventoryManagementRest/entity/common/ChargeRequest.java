@@ -1,4 +1,4 @@
-package com.cydeo.accountingsimplified.entity.common;
+package com.cydeo.InventoryManagementRest.entity.common;
 
 import lombok.Data;
 

@@ -1,4 +1,4 @@
-package com.cydeo.accountingsimplified.dto.addressApi;
+package com.cydeo.InventoryManagementRest.dto.addressApi;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Builder;

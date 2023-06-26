@@ -1,9 +1,9 @@
-package com.cydeo.accountingsimplified.service;
+package com.cydeo.InventoryManagementRest.service;
 
-import com.cydeo.accountingsimplified.dto.InvoiceProductDto;
-import com.cydeo.accountingsimplified.entity.InvoiceProduct;
-import com.cydeo.accountingsimplified.entity.Product;
-import com.cydeo.accountingsimplified.enums.InvoiceType;
+import com.cydeo.InventoryManagementRest.dto.InvoiceProductDto;
+import com.cydeo.InventoryManagementRest.entity.InvoiceProduct;
+import com.cydeo.InventoryManagementRest.entity.Product;
+import com.cydeo.InventoryManagementRest.enums.InvoiceType;
 
 import java.util.List;
 

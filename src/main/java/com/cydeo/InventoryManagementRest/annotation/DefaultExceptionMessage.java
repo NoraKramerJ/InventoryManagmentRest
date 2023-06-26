@@ -1,4 +1,4 @@
-package com.cydeo.accountingsimplified.annotation;
+package com.cydeo.InventoryManagementRest.annotation;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

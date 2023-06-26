@@ -1,6 +1,6 @@
-package com.cydeo.accountingsimplified.entity;
+package com.cydeo.InventoryManagementRest.entity;
 
-import com.cydeo.accountingsimplified.enums.ClientVendorType;
+import com.cydeo.InventoryManagementRest.enums.ClientVendorType;
 import lombok.*;
 import org.hibernate.annotations.Where;
 

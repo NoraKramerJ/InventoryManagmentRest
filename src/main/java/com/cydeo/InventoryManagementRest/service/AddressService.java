@@ -1,8 +1,8 @@
-package com.cydeo.accountingsimplified.service;
+package com.cydeo.InventoryManagementRest.service;
 
-import com.cydeo.accountingsimplified.dto.AddressDto;
-import com.cydeo.accountingsimplified.dto.addressApi.Country;
-import com.cydeo.accountingsimplified.dto.addressApi.State;
+import com.cydeo.InventoryManagementRest.dto.AddressDto;
+import com.cydeo.InventoryManagementRest.dto.addressApi.Country;
+import com.cydeo.InventoryManagementRest.dto.addressApi.State;
 
 import java.util.List;
 

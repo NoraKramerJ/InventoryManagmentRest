@@ -1,10 +1,10 @@
-package com.cydeo.accountingsimplified.service.common;
+package com.cydeo.InventoryManagementRest.service.common;
 
-import com.cydeo.accountingsimplified.entity.Company;
-import com.cydeo.accountingsimplified.entity.User;
-import com.cydeo.accountingsimplified.exception.AccountingException;
-import com.cydeo.accountingsimplified.mapper.MapperUtil;
-import com.cydeo.accountingsimplified.service.SecurityService;
+import com.cydeo.InventoryManagementRest.entity.Company;
+import com.cydeo.InventoryManagementRest.entity.User;
+import com.cydeo.InventoryManagementRest.exception.AccountingException;
+import com.cydeo.InventoryManagementRest.mapper.MapperUtil;
+import com.cydeo.InventoryManagementRest.service.SecurityService;
 import org.springframework.stereotype.Service;
 
 @Service

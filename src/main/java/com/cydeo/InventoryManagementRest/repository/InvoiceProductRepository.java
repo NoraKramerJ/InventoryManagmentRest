@@ -1,16 +1,16 @@
-package com.cydeo.accountingsimplified.repository;
+package com.cydeo.InventoryManagementRest.repository;
 
 import java.util.List;
 
-import com.cydeo.accountingsimplified.entity.Company;
-import com.cydeo.accountingsimplified.entity.Product;
-import com.cydeo.accountingsimplified.enums.InvoiceStatus;
+import com.cydeo.InventoryManagementRest.entity.Company;
+import com.cydeo.InventoryManagementRest.entity.Product;
+import com.cydeo.InventoryManagementRest.enums.InvoiceStatus;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import com.cydeo.accountingsimplified.entity.Invoice;
-import com.cydeo.accountingsimplified.entity.InvoiceProduct;
-import com.cydeo.accountingsimplified.enums.InvoiceType;
+import com.cydeo.InventoryManagementRest.entity.Invoice;
+import com.cydeo.InventoryManagementRest.entity.InvoiceProduct;
+import com.cydeo.InventoryManagementRest.enums.InvoiceType;
 import org.springframework.web.bind.annotation.CrossOrigin;
 
 @Repository

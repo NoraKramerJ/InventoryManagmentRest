@@ -1,7 +1,7 @@
-package com.cydeo.accountingsimplified.service;
+package com.cydeo.InventoryManagementRest.service;
 
-import com.cydeo.accountingsimplified.dto.CompanyDto;
-import com.cydeo.accountingsimplified.exception.AccountingException;
+import com.cydeo.InventoryManagementRest.dto.CompanyDto;
+import com.cydeo.InventoryManagementRest.exception.AccountingException;
 
 import java.util.List;
 

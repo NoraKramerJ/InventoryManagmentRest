@@ -1,9 +1,9 @@
-package com.cydeo.accountingsimplified.service.unit;
+package com.cydeo.InventoryManagementRest.service.unit;
 
 
-import com.cydeo.accountingsimplified.dto.addressApi.Country;
-import com.cydeo.accountingsimplified.service.AddressService;
-import com.cydeo.accountingsimplified.service.implementation.AddressServiceImpl;
+import com.cydeo.InventoryManagementRest.dto.addressApi.Country;
+import com.cydeo.InventoryManagementRest.service.AddressService;
+import com.cydeo.InventoryManagementRest.service.implementation.AddressServiceImpl;
 import lombok.extern.slf4j.Slf4j;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.DisplayName;

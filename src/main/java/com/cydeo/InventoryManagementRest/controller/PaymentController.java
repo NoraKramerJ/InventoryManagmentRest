@@ -1,9 +1,9 @@
-package com.cydeo.accountingsimplified.controller;
+package com.cydeo.InventoryManagementRest.controller;
 
-import com.cydeo.accountingsimplified.dto.PaymentDto;
-import com.cydeo.accountingsimplified.entity.common.ChargeRequest;
-import com.cydeo.accountingsimplified.service.PaymentService;
-import com.cydeo.accountingsimplified.service.implementation.StripeServiceImpl;
+import com.cydeo.InventoryManagementRest.dto.PaymentDto;
+import com.cydeo.InventoryManagementRest.entity.common.ChargeRequest;
+import com.cydeo.InventoryManagementRest.service.PaymentService;
+import com.cydeo.InventoryManagementRest.service.implementation.StripeServiceImpl;
 import com.stripe.exception.StripeException;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Controller;

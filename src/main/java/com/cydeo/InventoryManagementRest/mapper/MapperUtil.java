@@ -1,4 +1,4 @@
-package com.cydeo.accountingsimplified.mapper;
+package com.cydeo.InventoryManagementRest.mapper;
 
 import lombok.NoArgsConstructor;
 import org.modelmapper.ModelMapper;

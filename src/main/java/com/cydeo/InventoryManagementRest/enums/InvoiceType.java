@@ -1,4 +1,4 @@
-package com.cydeo.accountingsimplified.enums;
+package com.cydeo.InventoryManagementRest.enums;
 
 public enum InvoiceType {
 

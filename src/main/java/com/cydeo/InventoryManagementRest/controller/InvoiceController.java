@@ -1,10 +1,10 @@
-package com.cydeo.accountingsimplified.controller;
+package com.cydeo.InventoryManagementRest.controller;
 
-import com.cydeo.accountingsimplified.dto.InvoiceDto;
-import com.cydeo.accountingsimplified.dto.InvoiceProductDto;
-import com.cydeo.accountingsimplified.dto.ResponseWrapper;
-import com.cydeo.accountingsimplified.enums.InvoiceType;
-import com.cydeo.accountingsimplified.service.*;
+import com.cydeo.InventoryManagementRest.dto.InvoiceDto;
+import com.cydeo.InventoryManagementRest.dto.InvoiceProductDto;
+import com.cydeo.InventoryManagementRest.dto.ResponseWrapper;
+import com.cydeo.InventoryManagementRest.enums.InvoiceType;
+import com.cydeo.InventoryManagementRest.service.*;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

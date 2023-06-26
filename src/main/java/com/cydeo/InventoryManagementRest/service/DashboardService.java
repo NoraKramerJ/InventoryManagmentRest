@@ -1,7 +1,7 @@
-package com.cydeo.accountingsimplified.service;
+package com.cydeo.InventoryManagementRest.service;
 
 
-import com.cydeo.accountingsimplified.dto.CurrencyDto;
+import com.cydeo.InventoryManagementRest.dto.CurrencyDto;
 
 import java.math.BigDecimal;
 import java.util.Map;

@@ -1,14 +1,14 @@
-package com.cydeo.accountingsimplified.service.implementation;
+package com.cydeo.InventoryManagementRest.service.implementation;
 
-import com.cydeo.accountingsimplified.dto.CategoryDto;
-import com.cydeo.accountingsimplified.entity.Category;
-import com.cydeo.accountingsimplified.exception.AccountingException;
-import com.cydeo.accountingsimplified.mapper.MapperUtil;
-import com.cydeo.accountingsimplified.repository.CategoryRepository;
-import com.cydeo.accountingsimplified.service.CategoryService;
-import com.cydeo.accountingsimplified.service.ProductService;
-import com.cydeo.accountingsimplified.service.SecurityService;
-import com.cydeo.accountingsimplified.service.common.CommonService;
+import com.cydeo.InventoryManagementRest.dto.CategoryDto;
+import com.cydeo.InventoryManagementRest.entity.Category;
+import com.cydeo.InventoryManagementRest.exception.AccountingException;
+import com.cydeo.InventoryManagementRest.mapper.MapperUtil;
+import com.cydeo.InventoryManagementRest.repository.CategoryRepository;
+import com.cydeo.InventoryManagementRest.service.CategoryService;
+import com.cydeo.InventoryManagementRest.service.ProductService;
+import com.cydeo.InventoryManagementRest.service.SecurityService;
+import com.cydeo.InventoryManagementRest.service.common.CommonService;
 import com.stripe.exception.ApiException;
 import lombok.SneakyThrows;
 import org.springframework.stereotype.Service;

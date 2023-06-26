@@ -1,9 +1,9 @@
-package com.cydeo.accountingsimplified.service.feignClients;
+package com.cydeo.InventoryManagementRest.service.feignClients;
 
 
-import com.cydeo.accountingsimplified.dto.addressApi.Country;
-import com.cydeo.accountingsimplified.dto.addressApi.State;
-import com.cydeo.accountingsimplified.dto.addressApi.TokenDto;
+import com.cydeo.InventoryManagementRest.dto.addressApi.Country;
+import com.cydeo.InventoryManagementRest.dto.addressApi.State;
+import com.cydeo.InventoryManagementRest.dto.addressApi.TokenDto;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.GetMapping;

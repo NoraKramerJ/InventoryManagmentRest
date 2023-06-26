@@ -1,8 +1,8 @@
-package com.cydeo.accountingsimplified.service;
+package com.cydeo.InventoryManagementRest.service;
 
-import com.cydeo.accountingsimplified.dto.ClientVendorDto;
-import com.cydeo.accountingsimplified.enums.ClientVendorType;
-import com.cydeo.accountingsimplified.exception.AccountingException;
+import com.cydeo.InventoryManagementRest.dto.ClientVendorDto;
+import com.cydeo.InventoryManagementRest.enums.ClientVendorType;
+import com.cydeo.InventoryManagementRest.exception.AccountingException;
 
 import java.util.List;
 

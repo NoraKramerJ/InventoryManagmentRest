@@ -1,10 +1,10 @@
-package com.cydeo.accountingsimplified.controller;
+package com.cydeo.InventoryManagementRest.controller;
 
-import com.cydeo.accountingsimplified.annotation.DefaultExceptionMessage;
-import com.cydeo.accountingsimplified.dto.CategoryDto;
-import com.cydeo.accountingsimplified.dto.ResponseWrapper;
-import com.cydeo.accountingsimplified.exception.AccountingException;
-import com.cydeo.accountingsimplified.service.CategoryService;
+import com.cydeo.InventoryManagementRest.annotation.DefaultExceptionMessage;
+import com.cydeo.InventoryManagementRest.dto.CategoryDto;
+import com.cydeo.InventoryManagementRest.dto.ResponseWrapper;
+import com.cydeo.InventoryManagementRest.exception.AccountingException;
+import com.cydeo.InventoryManagementRest.service.CategoryService;
 import com.stripe.exception.ApiException;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

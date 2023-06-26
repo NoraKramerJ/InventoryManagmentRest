@@ -1,4 +1,4 @@
-package com.cydeo.accountingsimplified;
+package com.cydeo.InventoryManagementRest;
 
 import org.modelmapper.ModelMapper;
 import org.springframework.boot.SpringApplication;

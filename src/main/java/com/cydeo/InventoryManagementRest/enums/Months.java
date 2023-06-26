@@ -1,4 +1,4 @@
-package com.cydeo.accountingsimplified.enums;
+package com.cydeo.InventoryManagementRest.enums;
 
 public enum Months {
     JAN("January"), FEB("February"), MAR("March"), APR("April"), MAY("May"), JUN("June"), JLY("July"), AUG("August"), SEP("September"), OCT("October"), NOV("November"), DEC("December");

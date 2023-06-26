@@ -1,6 +1,6 @@
-package com.cydeo.accountingsimplified.entity;
+package com.cydeo.InventoryManagementRest.entity;
 
-import com.cydeo.accountingsimplified.enums.ProductUnit;
+import com.cydeo.InventoryManagementRest.enums.ProductUnit;
 import com.sun.istack.NotNull;
 import lombok.AllArgsConstructor;
 import lombok.Getter;

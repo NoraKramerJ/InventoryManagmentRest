@@ -1,9 +1,9 @@
-package com.cydeo.accountingsimplified.service;
+package com.cydeo.InventoryManagementRest.service;
 
-import com.cydeo.accountingsimplified.dto.InvoiceDto;
-import com.cydeo.accountingsimplified.dto.InvoiceProductDto;
-import com.cydeo.accountingsimplified.enums.InvoiceStatus;
-import com.cydeo.accountingsimplified.enums.InvoiceType;
+import com.cydeo.InventoryManagementRest.dto.InvoiceDto;
+import com.cydeo.InventoryManagementRest.dto.InvoiceProductDto;
+import com.cydeo.InventoryManagementRest.enums.InvoiceStatus;
+import com.cydeo.InventoryManagementRest.enums.InvoiceType;
 
 import java.math.BigDecimal;
 import java.util.List;

@@ -1,6 +1,6 @@
-package com.cydeo.accountingsimplified.dto;
+package com.cydeo.InventoryManagementRest.dto;
 
-import com.cydeo.accountingsimplified.enums.Months;
+import com.cydeo.InventoryManagementRest.enums.Months;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

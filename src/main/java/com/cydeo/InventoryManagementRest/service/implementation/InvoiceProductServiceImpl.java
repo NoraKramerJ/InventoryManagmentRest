@@ -1,16 +1,16 @@
-package com.cydeo.accountingsimplified.service.implementation;
+package com.cydeo.InventoryManagementRest.service.implementation;
 
-import com.cydeo.accountingsimplified.dto.InvoiceProductDto;
-import com.cydeo.accountingsimplified.dto.ProductDto;
-import com.cydeo.accountingsimplified.entity.Invoice;
-import com.cydeo.accountingsimplified.entity.InvoiceProduct;
-import com.cydeo.accountingsimplified.entity.Product;
-import com.cydeo.accountingsimplified.enums.InvoiceType;
-import com.cydeo.accountingsimplified.mapper.MapperUtil;
-import com.cydeo.accountingsimplified.repository.InvoiceProductRepository;
-import com.cydeo.accountingsimplified.service.InvoiceProductService;
-import com.cydeo.accountingsimplified.service.InvoiceService;
-import com.cydeo.accountingsimplified.service.ProductService;
+import com.cydeo.InventoryManagementRest.dto.InvoiceProductDto;
+import com.cydeo.InventoryManagementRest.dto.ProductDto;
+import com.cydeo.InventoryManagementRest.entity.Invoice;
+import com.cydeo.InventoryManagementRest.entity.InvoiceProduct;
+import com.cydeo.InventoryManagementRest.entity.Product;
+import com.cydeo.InventoryManagementRest.enums.InvoiceType;
+import com.cydeo.InventoryManagementRest.mapper.MapperUtil;
+import com.cydeo.InventoryManagementRest.repository.InvoiceProductRepository;
+import com.cydeo.InventoryManagementRest.service.InvoiceProductService;
+import com.cydeo.InventoryManagementRest.service.InvoiceService;
+import com.cydeo.InventoryManagementRest.service.ProductService;
 import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Service;
 

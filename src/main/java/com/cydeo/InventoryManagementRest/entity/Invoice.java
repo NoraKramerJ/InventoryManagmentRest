@@ -1,8 +1,8 @@
-package com.cydeo.accountingsimplified.entity;
+package com.cydeo.InventoryManagementRest.entity;
 
-import com.cydeo.accountingsimplified.dto.InvoiceProductDto;
-import com.cydeo.accountingsimplified.enums.InvoiceStatus;
-import com.cydeo.accountingsimplified.enums.InvoiceType;
+import com.cydeo.InventoryManagementRest.dto.InvoiceProductDto;
+import com.cydeo.InventoryManagementRest.enums.InvoiceStatus;
+import com.cydeo.InventoryManagementRest.enums.InvoiceType;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

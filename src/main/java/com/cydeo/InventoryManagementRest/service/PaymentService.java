@@ -1,6 +1,6 @@
-package com.cydeo.accountingsimplified.service;
+package com.cydeo.InventoryManagementRest.service;
 
-import com.cydeo.accountingsimplified.dto.PaymentDto;
+import com.cydeo.InventoryManagementRest.dto.PaymentDto;
 
 import java.util.List;
 

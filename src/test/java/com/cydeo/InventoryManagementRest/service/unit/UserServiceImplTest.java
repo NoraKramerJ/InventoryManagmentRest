@@ -1,14 +1,14 @@
-package com.cydeo.accountingsimplified.service.unit;
+package com.cydeo.InventoryManagementRest.service.unit;
 
-import com.cydeo.accountingsimplified.TestDocumentInitializer;
-import com.cydeo.accountingsimplified.dto.UserDto;
-import com.cydeo.accountingsimplified.entity.Company;
-import com.cydeo.accountingsimplified.entity.User;
-import com.cydeo.accountingsimplified.exception.AccountingException;
-import com.cydeo.accountingsimplified.mapper.MapperUtil;
-import com.cydeo.accountingsimplified.repository.UserRepository;
-import com.cydeo.accountingsimplified.service.SecurityService;
-import com.cydeo.accountingsimplified.service.implementation.UserServiceImpl;
+import com.cydeo.InventoryManagementRest.TestDocumentInitializer;
+import com.cydeo.InventoryManagementRest.dto.UserDto;
+import com.cydeo.InventoryManagementRest.entity.Company;
+import com.cydeo.InventoryManagementRest.entity.User;
+import com.cydeo.InventoryManagementRest.exception.AccountingException;
+import com.cydeo.InventoryManagementRest.mapper.MapperUtil;
+import com.cydeo.InventoryManagementRest.repository.UserRepository;
+import com.cydeo.InventoryManagementRest.service.SecurityService;
+import com.cydeo.InventoryManagementRest.service.implementation.UserServiceImpl;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
